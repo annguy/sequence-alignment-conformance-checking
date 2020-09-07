@@ -46,7 +46,7 @@ ID =['54%',
 p = view_alignment(test, ID,plot_width=1000,fontsize="16pt",text_font_size="19pt",height_adjust=58)
 show(p)
 ```
-![image](https://github.com/annguy/sequence-alignment-conformance-checking/reports/figures/test.pdf)  
+![image](https://github.com/annguy/sequence-alignment-conformance-checking/reports/figures/test.pdf )  
 
 3. Save as "png" or "svg"
 ```
