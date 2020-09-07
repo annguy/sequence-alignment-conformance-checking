@@ -15,7 +15,7 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │       ├── "CCC19 - Log CSV.csv"  
-    │       └── "CCC19_Log_normative_simulated_v1"
+    │       ├── "CCC19_Log_normative_simulated_v1"
     │       └── "CCC19_Log_normative_simulated_v3"
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
@@ -26,7 +26,7 @@ Project Organization
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment
     │
     ├── envtironment.yml   <- The requirements file for reproducing the analysis environment
     │
@@ -37,8 +37,9 @@ Project Organization
     │   ├── preprocess           <- Scripts to preprocess event log
     │   │   └── data_process.py
     │   │
-    │   ├── multiple_alignment   <- Scripts of alignment               
-    │   │   └── pairwise_alignment.py
+    │   ├── multiple_alignment   <- Scripts of different alignment approaches               
+    │   │   ├── pairwise_alignment.py
+    │   │   └── multiple_alignment.py
     │   │
     │   └── visualization  <- Scripts to create alignment visualizations
     │       └── visualization.py
