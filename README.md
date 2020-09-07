@@ -1,18 +1,20 @@
-Sequence Alignment and Visualization 
-==============================
+# Sequence Alignment and Visualization 
+
 
 
 Useful alignment approaches in conformance checking sequence,inspired by approaches in bioinformatics.
 This project was conducted at the Machine Learning and Data Analytics Lab (CS 14), Department of Computer Science Friedrich-Alexander-University Erlangen-Nuremberg (FAU).
 Data is provided by the 2019 Conformance Checking Challenge (CCC19).
 
-##Getting start
 
-Contributor 
------------- 
 
-Project Organization
-------------
+## Getting start 
+
+
+
+
+## Project Organization
+
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -53,13 +55,16 @@ Project Organization
             └── visualization.py
 
 
-Contributor 
------------- 
+## Contributor 
+ 
 [An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
+
 Wenyu Zhang  
 
 
---------
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 
 
