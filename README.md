@@ -9,8 +9,21 @@ Data is provided by the 2019 Conformance Checking Challenge (CCC19).
 
 
 ## Getting start 
-
-
+### Installing
+A step by step series of examples that tell you how to get a development env running
+Say what the step will be
+```
+git clone https://github.com/annguy/sequence-alignment-conformance-checking.git
+```
+Create new environment using the environment.yml 
+```
+conda env create -f environment.yml
+```
+Install src in the new environment 
+```
+pip install -e
+```
+### Examples
 
 
 ## Project Organization
@@ -55,10 +68,10 @@ Data is provided by the 2019 Conformance Checking Challenge (CCC19).
             └── visualization.py
 
 
-## Contributor 
- 
-[An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
+## Contributor 
+[An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
 Wenyu Zhang  
 
 
@@ -68,4 +81,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
