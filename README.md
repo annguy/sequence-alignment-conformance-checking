@@ -23,8 +23,8 @@ pip install -e
 ```
 ### Examples
 1. Pairwise Alignment
-seq1 =  "HEAHEE"
-seq2 = "PAHE"
+
+For example, seq1 =  "HEAHEE", seq2 = "PAHE"
 ```
 from pairwise_alignment import Needleman_Wunsch
 Needleman_Wunsch(seq1, seq2, gap_open_penalty=-2, gap_extend_penalty=-2, match_reward=1, mismatch_penalty=-2)
