@@ -32,7 +32,7 @@ Needleman_Wunsch(seq1, seq2, gap_open_penalty=-2, gap_extend_penalty=-2, match_r
 ```
 (['H', 'E', 'A', 'H', 'E', 'E'], ['P', '-', 'A', 'H', 'E', '-'], -3.0, 0.5)
 ```
-Result is (align1, align2, score, identity)
+The structure of result is (align1, align2, score, identity)
 
 2. Visualization
 ```
@@ -46,7 +46,7 @@ ID =['54%',
 p = view_alignment(test, ID,plot_width=1000,fontsize="16pt",text_font_size="19pt",height_adjust=58)
 show(p)
 ```
-![](https://github.com/annguy/sequence-alignment-conformance-checking/blob/master/reports/figures/test.pdf)  
+![Image text](https://github.com/annguy/sequence-alignment-conformance-checking/blob/master/reports/figures/test.pdf)  
 
 3. Save as "png" or "svg"
 ```
