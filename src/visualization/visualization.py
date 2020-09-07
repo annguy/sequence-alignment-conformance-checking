@@ -142,8 +142,12 @@ def view_alignment(seqs,ids,plot_width=1000,fontsize="14pt",text_font_size="14pt
 
     Parameters
     ----------
-    fasta : str
-        filename of a fasta file
+    seqs : list of str
+    ids : list of str
+    plot_width : int
+    fontsize : str
+    text_font_size : str
+    height_adjust : int
         
     Returns
     -------
@@ -191,8 +195,8 @@ def view_alignment_with_time(seqs,ids,time_array,time_range=20):
 
     Parameters
     ----------
-    fasta : str
-        filename of a fasta file
+    seqs : list of str
+    ids : list of str
     time_array : matrix
         time information 
     time_range : int
@@ -338,6 +342,8 @@ def plot_ColumnDataSource(DataSource, row_number, ids, plot_width=1000, fontsize
         width of figure
     fontsize : str
         fontsize of figure
+    text_font_size : str
+    height_adjust : int
     Returns
     -------
     p: Bokeh image
