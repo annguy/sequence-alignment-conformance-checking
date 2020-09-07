@@ -1,14 +1,12 @@
 # Sequence Alignment and Visualization 
 
 
-
-Useful alignment approaches in conformance checking sequence,inspired by approaches in bioinformatics.
+Useful alignment approaches in conformance checking sequence, inspired by approaches in bioinformatics.
 This project was conducted at the Machine Learning and Data Analytics Lab (CS 14), Department of Computer Science Friedrich-Alexander-University Erlangen-Nuremberg (FAU).
 Data is provided by the 2019 Conformance Checking Challenge (CCC19).
 
 
-
-## Getting start 
+## Getting Start 
 ### Installing
 A step by step series of examples that tell you how to get a development env running
 Say what the step will be
@@ -24,6 +22,40 @@ Install src in the new environment
 pip install -e
 ```
 ### Examples
+1. Pairwise Alignment
+seq1 =  "HEAHEE"
+seq2 = "PAHE"
+```
+from pairwise_alignment import Needleman_Wunsch
+Needleman_Wunsch(seq1, seq2, gap_open_penalty=-2, gap_extend_penalty=-2, match_reward=1, mismatch_penalty=-2)
+```
+```
+(['H', 'E', 'A', 'H', 'E', 'E'], ['P', '-', 'A', 'H', 'E', '-'], -3.0, 0.5)
+```
+Result is (align1, align2, score, identity)
+
+2. Visualization
+```
+from visualization import view_alignment
+test = ['a-----bcdefghijkno-p-qrst--uvxyz012',
+ 'bflngcbcde--hilfaolpfqrstvwuvwyz012']
+
+ID =['54%',
+ '1_Pre']
+ 
+p = view_alignment(test, ID,plot_width=1000,fontsize="16pt",text_font_size="19pt",height_adjust=58)
+show(p)
+```
+![](https://github.com/annguy/sequence-alignment-conformance-checking/reports/figures/test.pdf)  
+3. Save as "png" or "svg"
+```
+from bokeh.io import export_png
+export_png(p,filename="test.png",height=100, width=1200)
+```
+```
+p.output_backend = "svg"
+export_svgs(p, filename="test.svg")
+```
 
 
 ## Project Organization
@@ -72,6 +104,7 @@ pip install -e
 
 ## Contributor 
 [An Nguyen](https://www.mad.tf.fau.de/person/an-nguyen/)
+
 Wenyu Zhang  
 
 
