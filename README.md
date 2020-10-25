@@ -6,6 +6,24 @@ This project was conducted at the Machine Learning and Data Analytics Lab (CS 14
 Data is provided by the 2019 Conformance Checking Challenge (CCC19).
 
 
+## Citation and Contact
+You find a PDF of the paper
+[https://arxiv.org/abs/2010.11719](https://arxiv.org/abs/2010.11719).
+
+If you use our work, please also cite the paper:
+```
+ @article{Nguyen_Zhang_Schwinn_Eskofier_2020, 
+ title={Conformance Checking for a Medical Training Process Using Petri net Simulation and Sequence Alignment}, 
+ url={http://arxiv.org/abs/2010.11719}, note={00000 
+arXiv: 2010.11719}, journal={arXiv:2010.11719 [cs]}, 
+author={Nguyen, An and Zhang, Wenyu and Schwinn, Leo and Eskofier, Bjoern}, 
+year={2020}
+}
+
+```
+If you would like to get in touch, please contact [an.nguyen@fau.de](mailto:an.nguyen@fau.de).
+
+
 ## Getting Start 
 ### Installing
 A step by step series of examples that tell you how to get a development env running
